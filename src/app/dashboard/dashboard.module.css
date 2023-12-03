@@ -1,0 +1,208 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.main .header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .header .nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .header .nav div {
+  margin: 20px 30px;
+}
+
+.main .section {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .section .flexion {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+.main .section .container_flexion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.main .section .container_flexion .div_flexion {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main .section .container_flexion .div_flexion .span_up {
+  width: 131px;
+  height: 75px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: #b7a082;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .section .container_flexion .div_flexion .span_up img {
+  width: 40px;
+  height: 40px;
+}
+
+.main .section .container_flexion .div_flexion {
+  color: #fff;
+  font-weight: 100;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.main .section .container_flexion .div_flexion .span_down {
+  width: 131px;
+  height: 75px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #b7a082;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .section .container_flexion .div_flexion .span_down img {
+  width: 40px;
+  height: 40px;
+}
+
+.main .section_impulsion {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main .section_impulsion h2 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+.main .section_impulsion .container_impulsion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.main .section_impulsion .container_impulsion .btn_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .section_impulsion .container_impulsion .btn_container h4 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+.main .section_impulsion .container_impulsion .btn_container .btn_big {
+  width: 133px;
+  height: 158px;
+  background-color: #b7a082;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .section_impulsion .container_impulsion .btn_container .btn_big picture {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  border-radius: 100%;
+}
+
+.main .section_impulsion .btn_doble {
+  width: 80%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7a082;
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+}
+
+.main .section_impulsion .btn_doble picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  border-radius: 100%;
+  background-color: black;
+  margin: 0 10px;
+}
+
+.main .section_impulsion .btn_doble picture img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.main .section_impulsion .doble {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}

@@ -1,0 +1,29 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.main .title {
+  font-size: 55px;
+  color: #b7a082;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 5px;
+}
+
+.main button {
+  width: 233px;
+  height: 81px;
+  background-color: #b7a082;
+  font-size: 35px;
+  color: #000;
+  border-radius: 5rem;
+  outline: none;
+  border: none;
+  font-family: "Bebas Neue", sans-serif;
+}
