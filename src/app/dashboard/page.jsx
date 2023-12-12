@@ -16,7 +16,7 @@ const Dashboard = () => {
   useEffect(() => {
     try {
       axios
-        .post("rutahardware", {
+        .post("http://192.168.56.1:5500/api/lungepro/dashboard", {
           data: [
             {
               flexionLeft: flexionLeft,
