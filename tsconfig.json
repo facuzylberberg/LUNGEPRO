@@ -24,6 +24,6 @@
     "**/*.ts",
     "**/*.tsx",
     "src/app/help/page.jsx"
-  ],
+, "api/dashboard.jsx"  ],
   "exclude": ["node_modules"]
 }

@@ -43,7 +43,7 @@ const Settings = () => {
   useEffect(() => {
     try {
       axios
-        .post("http://192.168.56.1:3000/api/lungepro/settings", {
+        .post("http://10.8.5.73:3000/api/hardware/route", {
           data: value,
         })
         .then((res) => {

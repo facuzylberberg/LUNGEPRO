@@ -5,6 +5,7 @@ import styles from "./dashboard.module.css"
 import Footer from "../../components/footer/Footer"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
+import axios from "axios"
 
 const Dashboard = () => {
   const router = useRouter()
@@ -17,7 +18,7 @@ const Dashboard = () => {
   useEffect(() => {
     try {
       axios
-        .post("http://192.168.56.1:3000/api/lungepro/dashboard", {
+        .post("http://10.8.5.73:3000/api/hardware/route", {
           data: [
             {
               flexionLeft: flexionLeft,
