@@ -43,7 +43,7 @@ const Settings = () => {
   useEffect(() => {
     try {
       axios
-        .post("http://10.8.5.73:3000/api/hardware/route", {
+        .post("http://localhost:3000/api/hardware", {
           data: value,
         })
         .then((res) => {
